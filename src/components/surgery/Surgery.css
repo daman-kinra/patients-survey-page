@@ -1,0 +1,54 @@
+.surgery__main {
+  width: 500px;
+}
+.surgery__heading {
+  margin-bottom: 5px;
+}
+.surgery__details {
+  display: flex;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.left__section,
+.right__section {
+  flex: 1;
+}
+.img__section img {
+  width: 60px;
+  border-radius: 50%;
+}
+.left__section {
+  display: flex;
+  justify-content: space-between;
+}
+.img__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.data__section h2 {
+  font-size: 14px;
+  margin-bottom: 3px;
+}
+.data__section p {
+  font-size: 14px;
+  margin-bottom: 3px;
+}
+.right__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.no__box {
+  height: 40px;
+  width: 40px;
+  background-color: rgb(172, 62, 62);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 12px;
+}
